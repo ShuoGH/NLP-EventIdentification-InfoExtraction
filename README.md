@@ -11,22 +11,31 @@ This project is built by the PyTorch. The required modules are list as below.
     - For the implementation of BERT. 
 - spacy
 - nltk
+- gensim
 
 ## How to run
 
 The code are organized in the jupyter notebook.
 
-Before run, make sure there are `data/` and `output/` two file folders are build in the current path.
+Before run,
 
-Install modules and download pre-trained model.
+- make sure  the `data/` and `output/` two file folders are build in the current path.
+
+- Put the original data set into `data/` file folder and rename it as 'data_news.xlsx'.
+
+
+
+Install some modules and download pre-trained model.
 
 ```bash
-pip install spacy
-python -m spacy download en_core_web_sm
+pip install -r requirements.txt
+
+# pip install spacy
+# python -m spacy download en_core_web_sm
 # python -m spacy link en_core_web_sm en_core_web_sm
 ```
 
-(You may also encouter this in the notebook.)
+(You may also encouter the `spacy` installation code in the notebook.)
 
 I did the project on my own laptop and tested it on the server. To save time, the shorten data `data_news_shorten.xlsx` set could be used. It contains the first 1000 items from original data set.
 
@@ -43,6 +52,9 @@ I did the project on my own laptop and tested it on the server. To save time, th
 - `3. Further Idea.ipynb`: for third task
 - `Using BERT NextSentence Prediction for Task1.ipynb`: experience of exploring BERT. The supplement of the `3. Further Idea.ipynb`.
 
-
 Finally,
 Thanks to echobox for supplying me such a good opportunity to do the challenge!
+
+
+
+— Shuo
