@@ -28,6 +28,8 @@ python -m spacy download en_core_web_sm
 
 (You may also encouter this in the notebook.)
 
+I did the project on my own laptop and tested it on the server. To save time, the shorten data `data_news_shorten.xlsx` set could be used. It contains the first 1000 items from original data set.
+
 ## Files
 
 - data/: the file folder containing the data set
@@ -42,5 +44,5 @@ python -m spacy download en_core_web_sm
 - `Using BERT NextSentence Prediction for Task1.ipynb`: experience of exploring BERT. The supplement of the `3. Further Idea.ipynb`.
 
 
-
+Finally,
 Thanks to echobox for supplying me such a good opportunity to do the challenge!

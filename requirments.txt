@@ -4,8 +4,10 @@ torch
 matplotlib 
 sklearn
 scipy
+seaborn 
 
 tqdm 
+gensim
 nltk
 pytorch-transformers==1.0.0
 spacy
