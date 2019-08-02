@@ -1,4 +1,4 @@
-## main goal
+## Main Goal
 
 Given the data set contains the information of news articles, try to identify the breaking news event and extract information for each event.
 
